@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ["Lato"],
-        nunito: ["Nunito"]
+        nunito: ["Nunito"],
+        bajigoor: ["Bajigoor"]
       },
       colors:{
         mainBlue: "#1B1464",

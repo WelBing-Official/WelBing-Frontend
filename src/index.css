@@ -15,3 +15,8 @@
     font-family: "Nunito";
     src: url("./assets/Nunito-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Bajigoor";
+    src: url("./assets/Bajigoor-X3P5a.ttf");
+}
