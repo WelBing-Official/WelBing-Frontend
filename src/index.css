@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities{
-    .pic{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    .slant{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
     }
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("./assets/Nunito-Regular.ttf");
 }

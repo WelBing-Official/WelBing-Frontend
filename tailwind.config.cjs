@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["Lato"],
+        nunito: ["Nunito"]
+      },
+      colors:{
+        mainBlue: "#1B1464",
+        topBg: '#1B146412',
+        colorPurple: '#7F7CFF'
+      }
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
