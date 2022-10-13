@@ -10,7 +10,7 @@ export default function Header(){
             <button 
             className="btn text-white rounded border-0 font-lato bg-mainBlue hover:bg-mainBlue outline-none"
             >
-                Join The Waitlist
+                Join Our Waitlist
             </button>
         </div>
     )

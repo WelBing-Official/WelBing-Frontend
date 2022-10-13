@@ -12,8 +12,10 @@ module.exports = {
       },
       colors:{
         mainBlue: "#1B1464",
-        topBg: '#1B146412',
-        colorPurple: '#7F7CFF'
+        shadowColor: '#1B146478',
+        topBg: '#1B146408',
+        colorPurple: '#7F7CFF',
+        aGreen: '#22DE80'
       }
     },
   },
