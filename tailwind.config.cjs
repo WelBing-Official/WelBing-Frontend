@@ -16,6 +16,9 @@ module.exports = {
         topBg: '#1B146408',
         colorPurple: '#7F7CFF',
         aGreen: '#22DE80'
+      },
+      spacing: {
+        hIw: '45rem',
       }
     },
   },
