@@ -6,12 +6,12 @@ import Socials from "../components/socials"
 
 export default function WaitList(){
     return (
-        <>
+        <div className="bg-white">
         <Header />
         <Intro />
         <Expectations />
         <Subscribe />
         <Socials />
-        </>
+        </div>
     )
 }
