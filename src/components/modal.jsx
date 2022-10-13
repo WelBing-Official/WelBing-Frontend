@@ -18,7 +18,7 @@ export default function Modal(){
                     placeholder="Enter Your Email" 
                     /> <br />
                     <h2 className="w-full font-nunito text-black text-lg">Select A Category</h2>
-                    <select className="input mt-2 focus:outline-none text-md text-gray-700 border-gray-400 rounded-sm w-full font-nunito font-bold">
+                    <select className="input mt-2 focus:outline-none bg-white text-md text-gray-700 border-gray-400 rounded-sm w-full font-nunito font-bold">
                         <option value={null}>- Choose Your Category -</option>
                         <option value="Public Sector Doctor">
                             Public Sector Doctor
