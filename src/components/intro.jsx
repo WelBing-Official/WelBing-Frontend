@@ -6,20 +6,21 @@ export default function Intro(){
         <div className="lg:py-16 py-8 bg-topBg flex justify-center items-center h-fit slant shadow-topBg shadow-2xl">
             <div className="lg:w-1/2 lg:px-16 px-8 relative w-11/12">
                 <div className="absolute rounded-full lg:p-20 p-14 -z-10 bg-aGreen opacity-30 -top-3 left-1"></div>
-                <h1 className="lg:text-6xl text-5xl lg:p-6 font-lato font-bold text-gray-800">
+                <h1 className="lg:text-6xl lg:p-6 font-lato font-bold text-gray-800 sm:text-3xl">
                     Serving Your Health Needs Is Our Priority
                 </h1>
-                <p className=" text-sm lg:px-7 pb-3 pt-0 font-lato text-gray-600">
+                <p className="text-sm lg:px-7 pb-3 pt-0 font-lato text-gray-600 lg:mt-0 mt-6">
                     WelBing is here to improve communication between health practitioners and patients.
                     Maybe you're in need of medical assistance or just health tips? You don't want to go all the way to the clinic?
                     WelBing solves this issue by bringing you even closer to your health personel(s)
                 </p>
                 <div className="relative lg:px-7 pb-16 pt-8">
-                    <button
+                    <label
+                    htmlFor="my-modal"
                     className="btn bg-mainBlue text-white rounded border-0 hover:bg-mainBlue shadow-shadowColor shadow-2xl lg:px-8 px-5"
                     >
                         Join Our Waitlist
-                    </button>
+                    </label>
                     <div className="absolute border-t-2 border-b-2 border-t-colorPurple -z-10 opacity-70 border-b-colorPurple border-dashed py-4 lg:px-24 px-14 lg:top-16 top-14 left-24"></div>
                 </div>
             </div>

@@ -19,6 +19,7 @@ module.exports = {
       },
       spacing: {
         hIw: '45rem',
+        modalW: '55rem'
       }
     },
   },

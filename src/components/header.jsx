@@ -7,11 +7,12 @@ export default function Header(){
             <Link to="/" className="w-40">
                 <img src={Logo} alt="" className="object-cover object-center" />
             </Link>
-            <button 
-            className="btn text-white rounded border-0 font-lato bg-mainBlue hover:bg-mainBlue outline-none"
+            <label 
+            className="btn text-white hidden lg:flex rounded border-0 font-lato bg-mainBlue hover:bg-mainBlue outline-none active:outline-none"
+            htmlFor="my-modal"
             >
                 Join Our Waitlist
-            </button>
+            </label>
         </div>
     )
 }
