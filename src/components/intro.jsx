@@ -6,7 +6,7 @@ export default function Intro(){
         <div className="lg:py-16 py-8 bg-topBg flex justify-center items-center h-fit slant shadow-topBg shadow-2xl">
             <div className="lg:w-1/2 lg:px-16 px-8 relative w-11/12">
                 <div className="absolute rounded-full lg:p-20 p-14 -z-10 bg-aGreen opacity-30 -top-3 left-1"></div>
-                <h1 className="lg:text-6xl lg:p-6 font-lato font-bold text-gray-800 sm:text-3xl">
+                <h1 className="lg:text-6xl lg:p-6 font-lato font-bold text-gray-800 text-4xl">
                     Serving Your Health Needs Is Our Priority
                 </h1>
                 <p className="text-sm lg:px-7 pb-3 pt-0 font-lato text-gray-600 lg:mt-0 mt-6">
