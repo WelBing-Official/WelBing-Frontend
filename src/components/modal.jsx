@@ -4,7 +4,7 @@ export default function Modal(){
         <input type="checkbox" id="my-modal" className="modal-toggle" />
         <div className="modal">
             <div className="modal-box bg-white rounded-md flex flex-col items-center lg:w-hIw w-11/12 max-w-5xl px-1">
-                <h1 className=" font-nunito font-bold text-xl">JOIN THE WAITLIST</h1><br />
+                <h1 className="text-gray-800 font-nunito font-bold text-xl">JOIN THE WAITLIST</h1><br />
 
                 <form onSubmit={(e)=>{e.preventDefault()}} className="lg:w-4/5 w-11/12 flex flex-col justify-center items-center">
                     <input 
