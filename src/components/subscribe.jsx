@@ -7,7 +7,7 @@ export default function Subscribe(){
                 <br /><br />
                 <div className=" bg-white rounded py-2 flex lg:w-4/6 w-11/12 items-center justify-around">
                     <input type="text" className="input bg-transparent focus:outline-none rounded outline-none font-nunito h-8 text-black w-3/5" placeholder="Enter Your Email" />
-                    <button className="btn bg-mainBlue p-4 border-0 text-sm font-lato hover:bg-mainBlue rounded">Join Now</button>
+                    <button className="btn bg-mainBlue p-4 border-0 text-sm font-lato text-white hover:bg-mainBlue rounded">Join Now</button>
                 </div>
             </div>
         </div>

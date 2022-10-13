@@ -8,7 +8,7 @@ export default function Expectations(){
     return (
         <div className="py-12 flex flex-col items-center px-9">
             <h1 
-            className="font-bold text-xl after:block after:w-3/5 after:bg-green-500 after:h-1 leading-9 font-lato"
+            className="font-bold text-gray-800 text-xl after:block after:w-3/5 after:bg-green-500 after:h-1 leading-9 font-lato"
             >
                 WHAT TO EXPECT
             </h1>
