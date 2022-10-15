@@ -20,3 +20,8 @@
     font-family: "Bajigoor";
     src: url("./assets/Bajigoor-X3P5a.ttf");
 }
+
+@font-face {
+    font-family: "inter";
+    src: url("./assets/Inter-Regular.ttf");
+}
