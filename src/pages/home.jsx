@@ -5,7 +5,7 @@ import Subscribe from "../components/subscribe"
 import Socials from "../components/socials"
 import Modal from "../components/modal"
 
-export default function WaitList(){
+export default function Home(){
     return (
         <div className="bg-white">
         <Header />
