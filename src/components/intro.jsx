@@ -1,5 +1,6 @@
 import Doctor from "../assets/doctor.svg"
 import {BsCheckCircleFill} from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 export default function Intro(){
     return (
@@ -15,12 +16,12 @@ export default function Intro(){
                     WelBing solves this issue by bringing you even closer to your health personel(s)
                 </p>
                 <div className="relative lg:px-7 pb-16 pt-8">
-                    <label
-                    htmlFor="my-modal"
+                    <Link
+                    to="/signup"
                     className="btn bg-mainBlue text-white rounded border-0 hover:bg-mainBlue shadow-shadowColor shadow-2xl lg:px-8 px-5"
                     >
-                        Join Our Waitlist
-                    </label>
+                        Create An Account
+                    </Link>
                     <div className="absolute border-t-2 border-b-2 border-t-colorPurple -z-10 opacity-70 border-b-colorPurple border-dashed py-4 lg:px-24 px-14 lg:top-16 top-14 left-24"></div>
                 </div>
             </div>
