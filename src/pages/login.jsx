@@ -45,6 +45,18 @@ export default function Login(){
                             position: toast.POSITION.TOP_RIGHT
                         });
                         break;
+                    case 'Server error':
+                        toast.error("Fatal Error!", {
+                            draggable: false,
+                            position: toast.POSITION.TOP_RIGHT
+                        })
+                        break;
+                    case 'Incorrect input':
+                        toast.error("Incorrect Input!!", {
+                            draggable: false,
+                            position: toast.POSITION.TOP_RIGHT
+                        })
+                        break;
                     default:
                         toast.success("Login Successful", {
                             draggable: false,
