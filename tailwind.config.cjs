@@ -19,7 +19,8 @@ module.exports = {
         aGreen: '#22DE80',
         secondGrad: '#332999F5',
         trasnparentWhite: "#ffffff22",
-        notwhite: "#F4F3FF"
+        notwhite: "#F4F3FF",
+        secondColor: '#332999'
       },
       spacing: {
         hIw: '45rem',
