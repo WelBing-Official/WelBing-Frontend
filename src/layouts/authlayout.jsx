@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function AuthLayout(props){
     return (
-        <div className="p-1 h-viewHeight flex bg-white overflow-hidden">
+        <div className="lg:p-1 lg:h-viewHeight flex bg-white overflow-hidden">
             <div 
             className="w-1/2 h-full text-white rounded-tl-md rounded-bl-md bg-gradient-to-tl from-mainBlue to-secondGrad 
             relative hidden lg:flex items-center justify-center overflow-hidden"
