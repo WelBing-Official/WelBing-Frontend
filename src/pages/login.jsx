@@ -1,7 +1,8 @@
 import AuthLayout from "../layouts/authlayout"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 export default function Login(){
+    let nav = useNavigate();
     return (
         <AuthLayout page="login">
             <h1 className="text-mainBlue font-nunito text-3xl font-bold">
@@ -15,8 +16,8 @@ export default function Login(){
 
             <div className="flex justify-between items-center p-2 w-4/5 m-auto">
                 <div className="flex items-center">
-                    <input type="checkbox" className=" checkbox text-gray-400 checkbox-sm" />
-                    <label className="text-mainBlue ml-2 font-nunito text-sm">Save User</label>
+                    <input type="checkbox" id="remember" className=" checkbox text-gray-400 checkbox-sm" />
+                    <label htmlFor="remember" className="text-mainBlue ml-2 font-nunito text-sm">Save User</label>
                 </div>
 
                 <Link to="/login" className="text-mainBlue font-nunito text-sm">
@@ -24,7 +25,11 @@ export default function Login(){
                 </Link>
             </div> <br />
 
-            <button type="submit" className="bg-secondColor text-white font-nunito btn w-4/5 m-auto border-0 no-animation hover:bg-secondColor">
+            <button 
+            type="submit" 
+            className="bg-secondColor text-white font-nunito btn w-4/5 m-auto border-0 no-animation hover:bg-secondColor"
+            onClick={()=>{nav("/account")}}
+            >
                 Login Now
             </button>
         </AuthLayout>
